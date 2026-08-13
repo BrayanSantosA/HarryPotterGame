@@ -1,13 +1,24 @@
 package magician;
-import SpellBehaviour, SpellBehaviour;
+
+import spellbehaviour.SpellBehaviour;
 
 public abstract class Magician {
 
-    SpellBehaviour, SpellBehaviour;
+    protected SpellBehaviour spellBehaviour;
 
-    public void performSpell(){
-
-        spellbehaviour.spell();
+    public Magician(SpellBehaviour spellBehaviour) {
+        this.spellBehaviour = spellBehaviour;
     }
-    
+
+    public void setSpellBehaviour(SpellBehaviour spellBehaviour) {
+        this.spellBehaviour = spellBehaviour;
+    }
+
+    public SpellBehaviour getSpellBehaviour() {
+        return spellBehaviour;
+    }
+
+    public void performSpell() {
+        spellBehaviour.spell();
+    }
 }
