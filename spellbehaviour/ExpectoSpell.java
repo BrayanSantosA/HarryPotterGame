@@ -3,6 +3,6 @@ package spellbehaviour;
 public class ExpectoSpell implements SpellBehaviour{
 
     public void spell(){
-        system.out.println("Expecto Patronuumm");
+        System.out.println("Expecto Patronuumm");
     }
 }
