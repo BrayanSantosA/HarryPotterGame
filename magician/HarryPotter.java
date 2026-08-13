@@ -5,6 +5,6 @@ import spellbehaviour.ExpectoSpell;
 public class HarryPotter extends Magician {
     
     public HarryPotter() {
-        super(new ExpectoSpell());
+        super("Harry Potter",new ExpectoSpell());
     }
 }
