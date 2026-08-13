@@ -21,7 +21,7 @@ public abstract class Magician {
     }
 
     public void performSpell() {
-        System.out.print(name + " casts: ");
+        System.out.print(name + " Spell: ");
         spellBehaviour.spell();
     }
 }
